@@ -1,8 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "poppins";
-}
+}  
+  body{
+    font-family:lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+  }  
+
 
 .cabecalho {
        background-color: #2a1479;
@@ -31,8 +39,13 @@ font-size: 24px;
     color: white;
     display: flex;
 justify-content: center;
+align-items: center;
+padding: 24px 0;
 }
 
 .escola-div-conteudo{
     width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
